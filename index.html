@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Viewport with viewport-fit=cover for notched iPhones (iPhone X, 11-16 Pro/Max) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- Title & SEO -->
+    <title>Aaliya Jeelani | Independent ESG Advisory Hub & Interactive OS</title>
+    <meta name="description" content="Personalized ESG consulting suite, open-source repository explorer, multi-currency rate calculator, and freelance launchpad dedicated to Aaliya Jeelani." />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- iOS Safari & Web App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Aaliya ESG" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Theme Colors -->
+    <meta name="theme-color" content="#020617" />
+    <meta name="msapplication-navbutton-color" content="#020617" />
+    <meta name="msapplication-TileColor" content="#022c22" />
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="./icons/icon-512.png" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="./icons/icon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="./assets/index-psGKT1_O.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-xxhvHWYq.css">
+  </head>
+  <body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-emerald-500 selection:text-white font-sans antialiased overscroll-none">
+    <div id="root"></div>
+
+    <!-- Service Worker Registration for PWA & Offline Support -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then((registration) => {
+              console.log('PWA ServiceWorker registered successfully with scope:', registration.scope);
+            })
+            .catch((err) => {
+              console.warn('PWA ServiceWorker registration skipped or failed:', err);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

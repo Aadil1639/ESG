@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <!-- Background with subtle border -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.15)" stroke-width="4" />
+  <!-- Glow circle -->
+  <circle cx="256" cy="256" r="190" fill="url(#glowGrad)" />
+  <!-- Leaf shape -->
+  <path d="M 256,105 C 100,240 100,370 256,407 C 412,370 412,240 256,105 Z" fill="url(#leafGrad)" />
+  <!-- Center spine -->
+  <path d="M 256,128 L 256,388" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-opacity="0.85" />
+  <!-- Side veins -->
+  <path d="M 256,205 L 185,178" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75" />
+  <path d="M 256,265 L 175,242" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75" />
+  <path d="M 256,328 L 195,310" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75" />
+  <path d="M 256,195 L 327,170" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75" />
+  <path d="M 256,256 L 338,230" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75" />
+  <path d="M 256,320 L 318,302" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75" />
+</svg>

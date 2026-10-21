@@ -1,0 +1,62 @@
+{
+  "name": "Aaliya Jeelani | Independent ESG Advisory Hub",
+  "short_name": "Aaliya ESG",
+  "description": "Bespoke ESG Advisory Operating System, Open-Source Repository Explorer, and Freelance Consulting Launchpad.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#020617",
+  "theme_color": "#022c22",
+  "categories": ["business", "finance", "productivity", "utilities"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Repo Explorer",
+      "short_name": "Repos",
+      "description": "Browse 40+ curated ESG open-source repositories",
+      "url": "./#repos",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Rate Calculator",
+      "short_name": "Calculator",
+      "description": "Calculate multi-currency hourly rates and retainers",
+      "url": "./#calculator",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Service Blueprints",
+      "short_name": "Blueprints",
+      "description": "Review turnkey advisory scopes and pricing",
+      "url": "./#blueprints",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
