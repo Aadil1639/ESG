@@ -1,15 +1,15 @@
 {
-  "name": "Aaliya Jeelani | Independent ESG Advisory Hub",
+  "name": "Aaliya Jeelani | ESG Advisory Studio",
   "short_name": "Aaliya ESG",
-  "description": "Bespoke ESG Advisory Operating System, Open-Source Repository Explorer, and Freelance Consulting Launchpad.",
+  "description": "Executive ESG consulting suite, freelance gig stream, automated pitch generator, and advisory rate calculator for Aaliya Jeelani.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "display_override": ["standalone", "fullscreen", "minimal-ui"],
   "orientation": "portrait-primary",
-  "background_color": "#020617",
-  "theme_color": "#022c22",
-  "categories": ["business", "finance", "productivity", "utilities"],
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "categories": ["business", "finance", "productivity"],
   "lang": "en",
   "icons": [
     {
@@ -38,24 +38,24 @@
   ],
   "shortcuts": [
     {
-      "name": "Repo Explorer",
-      "short_name": "Repos",
-      "description": "Browse 40+ curated ESG open-source repositories",
-      "url": "./#repos",
+      "name": "Live Gigs",
+      "short_name": "Gigs",
+      "description": "Browse active ESG freelance and advisory opportunities",
+      "url": "./#opportunities",
       "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Rate Calculator",
-      "short_name": "Calculator",
-      "description": "Calculate multi-currency hourly rates and retainers",
+      "name": "Pitch AI",
+      "short_name": "Pitch",
+      "description": "Generate executive client proposal pitches in seconds",
+      "url": "./#pitch",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Fee Calculator",
+      "short_name": "Rates",
+      "description": "Calculate project and retainer advisory quotes",
       "url": "./#calculator",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Service Blueprints",
-      "short_name": "Blueprints",
-      "description": "Review turnkey advisory scopes and pricing",
-      "url": "./#blueprints",
       "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
